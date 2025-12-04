@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 // The URL for the API endpoint running locally
-const API_URL = "http://localhost:5000/api/users";
+// const API_URL = "http://localhost:5000/api/users";
+const API_URL = "http://3.7.55.75:5000/api/users";
 
 /**
  * Main application component to fetch and display the user list simply.
