@@ -7,7 +7,10 @@ const port = 5000;
 // --- CORS Configuration ---
 const corsOptions = {
   // Allow requests from your specific frontend URL
-  origin: "http://3.7.55.75:5173",
+  origin: [
+    "http://3.7.55.75:5173",
+    "http://ec2-3-7-55-75.ap-south-1.compute.amazonaws.com:5173",
+  ],
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
